@@ -1,0 +1,62 @@
+
+.scrollable {
+    max-height: 70%;
+    overflow-y: auto;
+}
+.email-generator-title {
+    text-align: center;
+}
+
+.email-generator .email-prompt textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none; /* Prevent manual resizing */
+    
+  }
+  .email-generator textarea::placeholder {
+    font-size: 14px; /* Set the font size for the placeholder */
+    color: #a19b9b; /* Set the placeholder text color to light gray */
+  }
+ 
+  .email-generator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .email-generator button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+
+    transition: background-color 0.3s;
+  }
+
+  .email-generator button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+  }
+
+  .generated-response {
+    margin-top: 50px;
+  }
+
+  .email-box {
+    width: 100%;
+    padding: 20px;
+  
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  .generated-response h2 {
+    text-align: center;
+  }
+
