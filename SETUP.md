@@ -1,11 +1,3 @@
-# Nylas Use Case Samples
-
-**⚠️ Warning: This repo is not meant for use in production and stability is not fully guaranteed.**
-
-Explore working front-end and back-end sample code in our sample Nylas integrations.
-
-The sample applications redirect to Nylas' hosted authentication page. Once a user authenticates, it allows them to interact with Nylas' APIs from a web client.
-
 ## ⚡️ App Set up
 
 View the `README.md` files in the `backend` and `frontend` directories for instructions on how to set up the server and client. These README files include set up instructions for each language.
