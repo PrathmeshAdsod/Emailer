@@ -8,7 +8,7 @@ const EmailGenerator = () => {
   const [generatedEmails, setGeneratedEmails] = useState('');
 
   const openai = new OpenAI({
-    apiKey: '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',dangerouslyAllowBrowser: true
+    apiKey: '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',dangerouslyAllowBrowser: true
   });
 
   const handleInputChange = (event) => {
