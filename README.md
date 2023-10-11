@@ -1,5 +1,4 @@
-# Emailer
-# read, write, send, generate emails
+
 # Emailer - Send, Read, and Generate Emails with Nylas and OpenAI
 
 Welcome to the Emailer project! This React app allows you to interact with emails using the Nylas API for sending, reading, and writing emails, and it integrates with the OpenAI API to generate emails. Whether you're a beginner or an experienced developer, this guide will help you set up and run the project.
